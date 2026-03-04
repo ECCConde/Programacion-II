@@ -14,9 +14,9 @@ public class Ejercicio1TestCronometro {
         Ejercicio1Cronometro cr = new Ejercicio1Cronometro();
         Random rand = new Random();
         
-        int cantidad = 1000;  
+        int cantidad = 10000;  
         int min = 1;
-        int max = 1000;
+        int max = 10000;
         int[] lista = new int[cantidad];
 
         for (int i = 0; i < cantidad; i++) {
