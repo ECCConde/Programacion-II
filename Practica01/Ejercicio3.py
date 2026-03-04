@@ -1,6 +1,6 @@
 import math
 
-class Ejercicio3EcuacionCuadratica:
+class EcuacionCuadratica:
     def __init__(self, a, b, c):
         self.a = a
         self.b = b
@@ -29,7 +29,7 @@ class Main:
             b = float(entrada[1])
             c = float(entrada[2])
 
-            eq = Ejercicio3EcuacionCuadratica(a, b, c)
+            eq = EcuacionCuadratica(a, b, c)
             disc = eq.getDiscriminante()
 
             if disc > 0:
