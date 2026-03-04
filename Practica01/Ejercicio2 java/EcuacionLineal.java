@@ -1,3 +1,6 @@
+
+package ejercicio2 java;
+
 public class EcuacionLineal {
     private double a, b, c, d, e, f;
 

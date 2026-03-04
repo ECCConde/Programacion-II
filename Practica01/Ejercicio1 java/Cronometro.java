@@ -1,10 +1,4 @@
-
 package Ejercicio1 java;
-
-/**
- *
- * @author Ever
- */
 public class Cronometro {
 
     private int inicia;
