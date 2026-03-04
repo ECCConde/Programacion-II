@@ -39,5 +39,4 @@ class Main:
             else:
                 print("La ecuacion no tiene raices reales")
 
-if __name__ == "__main__":
-    Main()
+Main()
