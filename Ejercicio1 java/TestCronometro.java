@@ -1,5 +1,10 @@
 package ejercicio1;
 
+/**
+ *
+ * @author Ever
+ */
+
 import java.util.Random;
 
 public class TestCronometro {
