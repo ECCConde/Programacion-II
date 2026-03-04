@@ -1,18 +1,17 @@
-package Ejercicio1 java;
-public class Cronometro {
+public class Ejercicio1Cronometro {
 
     private int inicia;
     private int finaliza;
 
-    public Cronometro() {
+    public Ejercicio1Cronometro() {
         this.inicia = (int) System.currentTimeMillis();
     }
 
-    public long getInicia() {
+    public int getInicia() {
         return inicia;
     }
 
-    public long getFinaliza() {
+    public int getFinaliza() {
         return finaliza;
     }
 

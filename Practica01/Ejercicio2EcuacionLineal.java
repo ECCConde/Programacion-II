@@ -1,10 +1,7 @@
-
-package ejercicio2 java;
-
-public class EcuacionLineal {
+public class Ejercicio2EcuacionLineal {
     private double a, b, c, d, e, f;
 
-    public EcuacionLineal(double a, double b, double c, double d, double e, double f) {
+    public Ejercicio2EcuacionLineal(double a, double b, double c, double d, double e, double f) {
         this.a = a;
         this.b = b;
         this.c = c;
@@ -51,13 +48,13 @@ public class EcuacionLineal {
 
     public static void main(String[] args) {
         
-        EcuacionLineal t1 = new EcuacionLineal(9.0, 4.0, 3.0, -5.0, -6.0, -21.0);
+        Ejercicio2EcuacionLineal t1 = new Ejercicio2EcuacionLineal(9.0, 4.0, 3.0, -5.0, -6.0, -21.0);
         System.out.println("¿Tiene solución?: " + t1.tieneSolucion());
         System.out.println("Solución de X: " + t1.getX());
         System.out.println("Solución de Y: " + t1.getY());
 
         System.out.println(); 
-        EcuacionLineal t2 = new EcuacionLineal(1.0, 2.0, 2.0, 4.0, 4.0, 5.0);
+        Ejercicio2EcuacionLineal t2 = new Ejercicio2EcuacionLineal(1.0, 2.0, 2.0, 4.0, 4.0, 5.0);
         System.out.println("¿Tiene solución?: " + t2.tieneSolucion());
         System.out.println("Solución de X: " + t2.getX());
         System.out.println("Solución de Y: " + t2.getY());
