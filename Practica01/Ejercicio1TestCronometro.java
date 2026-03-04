@@ -1,3 +1,10 @@
+/**
+* Clase principal, Cuyo objetivo es probar la ejecuci´on.
+*
+* @author Ever Conde
+* @version 1.0 04/03/2026
+*/
+
 import java.util.Random;
 
 public class Ejercicio1TestCronometro {

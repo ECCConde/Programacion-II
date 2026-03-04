@@ -1,3 +1,9 @@
+/**
+* Clase Ecuacionlineal.
+*
+* @author Ever Conde
+* @version 1.0 04/03/2026
+*/
 public class Ejercicio2EcuacionLineal {
     private double a, b, c, d, e, f;
 

@@ -1,3 +1,10 @@
+/**
+* Clase Ejercicio1Cronometro.
+*
+* @author Ever Conde
+* @version 1.0 04/03/2026
+*/
+
 public class Ejercicio1Cronometro {
 
     private int inicia;

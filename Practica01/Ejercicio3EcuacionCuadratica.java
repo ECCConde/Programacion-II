@@ -1,3 +1,11 @@
+/**
+* Clase EcuacionCuadratica.
+*
+* @author Ever Conde
+* @version 1.0 04/03/2026
+*/
+
+
 import java.util.Scanner;
 
 public class Ejercicio3EcuacionCuadratica {

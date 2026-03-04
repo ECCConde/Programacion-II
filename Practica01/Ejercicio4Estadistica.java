@@ -1,3 +1,11 @@
+/**
+* Clase Estadistica.
+*
+* @author Ever Conde
+* @version 1.0 04/03/2026
+*/
+
+
 import java.util.Scanner;
 
 // ORIENTADA A OBJETOS 
