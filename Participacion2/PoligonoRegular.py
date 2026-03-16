@@ -1,6 +1,6 @@
 import math
 
-class PoligonoRegular:
+class Poligono:
 
     # Un constructor sin argumentos que crea un polígono regular con valores predeterminados.
     # Un constructor que crea un polígono regular con el número de lados y la longitud especificados, centrado en (0, 0).
@@ -34,21 +34,21 @@ class PoligonoRegular:
 class Main:
     def __init__(self):
         # Constructor sin argumentos
-        p1 = PoligonoRegular()
+        p1 = Poligono()
         print("Poligono 1")
         print(p1)
         print("Perímetro: {:.2f}".format(p1.getPerimetro()))
         print("Área: {:.5f}\n".format(p1.getArea()))
 
         # Constructor(6, 4)
-        p2 = PoligonoRegular(6, 4)
+        p2 = Poligono(6, 4)
         print("Poligono 2")
         print(p2)
         print("Perímetro: {:.2f}".format(p2.getPerimetro()))
         print("Área: {:.5f}\n".format(p2.getArea()))
 
         # Constructor(10, 4, 5.6, 7.8)
-        p3 = PoligonoRegular(10, 4, 5.6, 7.8)
+        p3 = Poligono(10, 4, 5.6, 7.8)
         print("Poligono 3")
         print(p3)
         print("Perímetro: {:.2f}".format(p3.getPerimetro()))
