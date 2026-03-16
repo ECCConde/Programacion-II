@@ -1,6 +1,6 @@
 package Participacion2;
 
-class Main {
+class TestPoligono {
     public static void main(String[] args) {
         
         //Constructor sin argumentos
