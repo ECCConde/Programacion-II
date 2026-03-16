@@ -5,7 +5,6 @@ class Poligono:
     # Un constructor sin argumentos que crea un polígono regular con valores predeterminados.
     # Un constructor que crea un polígono regular con el número de lados y la longitud especificados, centrado en (0, 0).
     # Un constructor que crea un polígono regular con el número de lados, la longitud del lado y las coordenadas x e y especificados.
-    # (En Python todo esto se logra con un solo constructor usando parámetros por defecto)
     def __init__(self, n=3, lado=1.0, x=0.0, y=0.0):
         # Un campo de datos privado int llamado n que define el número de lados del polígono con un valor predeterminado de 3.
         self.__n = n
@@ -31,27 +30,27 @@ class Poligono:
         return "Poligono(lados=" + str(self.__n) + ", lado=" + str(self.__lado) + ", centro=(" + str(self.__x) + "," + str(self.__y) + "))"
 
 
-class Main:
+class TestPoligono:
     def __init__(self):
         # Constructor sin argumentos
         p1 = Poligono()
         print("Poligono 1")
         print(p1)
-        print("Perímetro: {:.2f}".format(p1.getPerimetro()))
-        print("Área: {:.5f}\n".format(p1.getArea()))
+        print("Perimetro: {:.2f}".format(p1.getPerimetro()))
+        print("Area: {:.5f}\n".format(p1.getArea()))
 
         # Constructor(6, 4)
         p2 = Poligono(6, 4)
         print("Poligono 2")
         print(p2)
-        print("Perímetro: {:.2f}".format(p2.getPerimetro()))
-        print("Área: {:.5f}\n".format(p2.getArea()))
+        print("Perimetro: {:.2f}".format(p2.getPerimetro()))
+        print("Area: {:.5f}\n".format(p2.getArea()))
 
         # Constructor(10, 4, 5.6, 7.8)
         p3 = Poligono(10, 4, 5.6, 7.8)
         print("Poligono 3")
         print(p3)
-        print("Perímetro: {:.2f}".format(p3.getPerimetro()))
-        print("Área: {:.5f}".format(p3.getArea()))
+        print("Perimetro: {:.2f}".format(p3.getPerimetro()))
+        print("Area: {:.5f}".format(p3.getArea()))
 
-Main()
+TestPoligono()
