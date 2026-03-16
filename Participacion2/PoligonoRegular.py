@@ -54,5 +54,4 @@ class Main:
         print("Perímetro: {:.2f}".format(p3.getPerimetro()))
         print("Área: {:.5f}".format(p3.getArea()))
 
-# Ejecución del programa
 Main()
