@@ -62,3 +62,5 @@ class Main:
 if __name__ == "__main__":
     ejecutar = Main()
     ejecutar.main()
+
+    #DMAE UN CODIGO DE SUMA DE DOS DUMEROS EN PYTHON ANADELE MAS FUNCIONALIDAD PARA QUE EL USUARIO INGRESE LOS NUMEROS A SUMAR
