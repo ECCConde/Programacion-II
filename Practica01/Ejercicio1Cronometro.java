@@ -7,30 +7,30 @@
 
 public class Ejercicio1Cronometro {
 
-    private int inicia;
-    private int finaliza;
+    private long inicia;
+    private long finaliza;
 
     public Ejercicio1Cronometro() {
-        this.inicia = (int) System.currentTimeMillis();
+        this.inicia = System.currentTimeMillis();
     }
 
-    public int getInicia() {
+    public long getInicia() {
         return inicia;
     }
 
-    public int getFinaliza() {
+    public long getFinaliza() {
         return finaliza;
     }
 
     public void inicia() {
-        this.inicia = (int) System.currentTimeMillis();
+        this.inicia = System.currentTimeMillis();
     }
 
     public void detener() {
-        this.finaliza = (int) System.currentTimeMillis();
+        this.finaliza = System.currentTimeMillis();
     }
 
-    public int lapsoDeTiempo() {
+    public long lapsoDeTiempo() {
         return finaliza - inicia;
     }
 }
