@@ -1,7 +1,7 @@
 {
     "python-envs.pythonProjects": [
         {
-            "path": "Practica02/MiPunto.py",
+            "path": "Practica/Vector3D.py",
             "envManager": "ms-python.python:venv",
             "packageManager": "ms-python.python:pip"
         }
