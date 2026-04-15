@@ -1,4 +1,3 @@
-# Clase Juego
 class Juego:
     def __init__(self, v: int):
     # a) Añada los atributos numeroDeVidas y record ambos de tipo entero.

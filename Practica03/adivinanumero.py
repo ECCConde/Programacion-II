@@ -1,6 +1,6 @@
 import random
 from juego import Juego
-# a) Se deriva de la clase Juego.
+    # a) Se deriva de la clase Juego.
 class AdivinaNumero(Juego):
     # b) Añada el atributo numeroAAdivinar de tipo entero.
     # c) Agregue un constructor que tiene el parámetro número de vidas
