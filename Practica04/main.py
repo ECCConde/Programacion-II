@@ -7,11 +7,11 @@ if __name__ == "__main__":
 
     # RELACION DE COMPOSICION (Libro - Página)
     libro_poo = Libro("Programacion Orientada a Objetos", "978-12345", [
-        "IntroducciOn a UML y diagramas de clases.",
+        "Introduccion a UML y diagramas de clases.",
         "Conceptos profundos de Asociacion, Agregacion y Composicion."
     ])
     
-    autor_felipez = Autor("Lic. Jhonny Felípez", "Boliviano")
+    autor_felipez = Autor("Lic. Jhonny Felipez", "Boliviano")
     estudiante_u = Estudiante("1002345", "Ever")
 
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     print("\n. Cerrando la biblioteca.")
     biblioteca_central.cerrarBiblioteca()
 
-    print("\n. después del cierre.")
+    print("\n. despues del cierre.")
     
     if libro_poo is not None and estudiante_u is not None:
         print(f"Objeto Estudiante: {estudiante_u.get_nombre()} - Sigue existiendo.")
